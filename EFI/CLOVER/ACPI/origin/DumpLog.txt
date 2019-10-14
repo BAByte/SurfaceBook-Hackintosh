@@ -1,0 +1,79 @@
+20:346  0:850  Found UEFI Acpi 2.0 RSDP at 8BEFE014
+20:346  0:000  Saving ACPI tables from RSDP 8BEFE014 to EFI\CLOVER\ACPI\origin ...
+20:346  0:000   8BEFE014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+20:441  0:094    (Xsdt: 8BEFD0E8, Rsdt: 8BEFD074)
+20:441  0:000    8BEFD0E8: 'XSDT', 'MSFT', Rev: 1, Len: 164 -> XSDT.aml
+20:507  0:065    8BEFD074: 'RSDT', 'MSFT', Rev: 1, Len: 100 -> RSDT.aml
+20:572  0:065    Tables in Xsdt: 16
+20:572  0:000    0. 8BEF6000: 'FACP', 'MSFT', Rev: 5, Len: 268 -> FACP.aml
+20:615  0:043        (Dsdt: 8BEDA000, Facs: 8BEAE000, XDsdt: 8BEDA000, XFacs: 0)
+20:615  0:000        8BEDA000: 'DSDT', 'MSFT', Rev: 2, Len: 95823 -> DSDT.aml
+20:688  0:072        8BEAE000: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+20:754  0:066    1. 8BEFC000: 'BBRT', 'MSFT', Rev: 1, Len: 44 -> BBRT.aml
+20:821  0:066    2. 8BEFB000: 'MSDM', '', Rev: 1, Len: 85 -> MSDM.aml
+20:888  0:066    3. 8BEF7000: 'SSDT', 'SaSsdt', Rev: 2, Len: 12587 -> SSDT-0-SaSsdt.aml
+20:955  0:067    4. 8BEF5000: 'HPET', 'MSFT', Rev: 1, Len: 56 -> HPET.aml
+21:021  0:066    5. 8BEF4000: 'APIC', 'MSFT', Rev: 3, Len: 300 -> APIC.aml
+21:087  0:065    6. 8BEF3000: 'MCFG', 'MSFT', Rev: 1, Len: 60 -> MCFG.aml
+21:153  0:066    7. 8BEF2000: 'LPIT', 'MSFT', Rev: 1, Len: 148 -> LPIT.aml
+21:223  0:070    8. 8BED7000: 'SSDT', 'RTD3APNV', Rev: 2, Len: 9739 -> SSDT-1-RTD3APNV.aml
+21:299  0:075    9. 8BED6000: 'SSDT', 'xh_ap000', Rev: 2, Len: 2253 -> SSDT-2-xh_ap000.aml
+21:366  0:066    10. 8BED4000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062 -> SSDT-3-CpuSsdt.aml (Found hidden SSDT 7 pcs)
+21:431  0:065        * 8BEA8098: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1650  53 53 44 54 72 06 00 00 02 0F 50 6D 52 65 66 00 Internal length = 1650 -> SSDT-x3_0-Cpu0Ist.aml
+21:497  0:065        * 8BE64018: 'SSDT', 'ApIst', Rev: 2, Len: 3348  53 53 44 54 14 0D 00 00 02 30 50 6D 52 65 66 00 Internal length = 3348 -> SSDT-x3_1-ApIst.aml
+21:563  0:065        * 8BE65698: 'SSDT', 'Cpu0Cst', Rev: 2, Len: 1023  53 53 44 54 FF 03 00 00 02 17 50 6D 52 65 66 00 Internal length = 1023 -> SSDT-x3_2-Cpu0Cst.aml
+21:628  0:065        * 8BE63018: 'SSDT', 'ApCst', Rev: 2, Len: 778  53 53 44 54 0A 03 00 00 02 99 50 6D 52 65 66 00 Internal length = 778 -> SSDT-x3_3-ApCst.aml
+21:694  0:065        * 8BEA8B18: 'SSDT', 'Cpu0Hwp', Rev: 2, Len: 186  53 53 44 54 BA 00 00 00 02 83 50 6D 52 65 66 00 Internal length = 186 -> SSDT-x3_4-Cpu0Hwp.aml
+21:759  0:065        * 8BE63418: 'SSDT', 'ApHwp', Rev: 2, Len: 791  53 53 44 54 17 03 00 00 02 86 50 6D 52 65 66 00 Internal length = 791 -> SSDT-x3_5-ApHwp.aml
+21:824  0:065        * 8BE65018: 'SSDT', 'HwpLvt', Rev: 2, Len: 1576  53 53 44 54 28 06 00 00 02 8B 50 6D 52 65 66 00 Internal length = 1576 -> SSDT-x3_6-HwpLvt.aml
+21:890  0:065  
+21:890  0:000    11. 8BED3000: 'DMAR', 'MSFT', Rev: 1, Len: 312 -> DMAR.aml
+21:955  0:065    12. 8BED2000: 'NHLT', 'MSFT', Rev: 0, Len: 45 -> NHLT.aml
+22:020  0:065    13. 8BED1000: 'FPDT', 'MSFT', Rev: 1, Len: 52 -> FPDT.aml
+22:085  0:065    14. 8BECF000: 'WSMT', 'MSFT', Rev: 1, Len: 40 -> WSMT.aml
+22:150  0:065    15. 8BED0000: 'BGRT', 'MSFT', Rev: 1, Len: 56 -> BGRT.aml
+22:215  0:064    Tables in Rsdt: 16
+22:215  0:000    0. 8BEF6000: 'FACP', 'MSFT', Rev: 5, Len: 268
+22:215  0:000        (Dsdt: 8BEDA000, Facs: 8BEAE000, XDsdt: 8BEDA000, XFacs: 0)
+22:215  0:000        8BEDA000: 'DSDT', 'MSFT', Rev: 2, Len: 95823
+22:217  0:002        8BEAE000: 'FACS', Ver: 2, Len: 64
+22:217  0:000    1. 8BEFC000: 'BBRT', 'MSFT', Rev: 1, Len: 44
+22:217  0:000    2. 8BEFB000: 'MSDM', '', Rev: 1, Len: 85
+22:217  0:000    3. 8BEF7000: 'SSDT', 'SaSsdt', Rev: 2, Len: 12587
+22:217  0:000    4. 8BEF5000: 'HPET', 'MSFT', Rev: 1, Len: 56
+22:217  0:000    5. 8BEF4000: 'APIC', 'MSFT', Rev: 3, Len: 300
+22:217  0:000    6. 8BEF3000: 'MCFG', 'MSFT', Rev: 1, Len: 60
+22:217  0:000    7. 8BEF2000: 'LPIT', 'MSFT', Rev: 1, Len: 148
+22:217  0:000    8. 8BED7000: 'SSDT', 'RTD3APNV', Rev: 2, Len: 9739
+22:217  0:000    9. 8BED6000: 'SSDT', 'xh_ap000', Rev: 2, Len: 2253
+22:217  0:000    10. 8BED4000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062
+22:217  0:000    11. 8BED3000: 'DMAR', 'MSFT', Rev: 1, Len: 312
+22:217  0:000    12. 8BED2000: 'NHLT', 'MSFT', Rev: 0, Len: 45
+22:217  0:000    13. 8BED1000: 'FPDT', 'MSFT', Rev: 1, Len: 52
+22:217  0:000    14. 8BECF000: 'WSMT', 'MSFT', Rev: 1, Len: 40
+22:217  0:000    15. 8BED0000: 'BGRT', 'MSFT', Rev: 1, Len: 56
+22:217  0:000  Found UEFI Acpi 1.0 RSDP at 8BEFE000
+22:217  0:000  Printing ACPI tables from RSDP 8BEFE000 ...
+22:217  0:000   8BEFE000: 'RSD PTR ', Rev: 0 (Acpi 1.0), Len: 20
+22:217  0:000    (Rsdt: 8BEFD000)
+22:217  0:000    8BEFD000: 'RSDT', 'MSFT', Rev: 1, Len: 100
+22:217  0:000    Tables in Rsdt: 16
+22:217  0:000    0. 8BEF6000: 'FACP', 'MSFT', Rev: 5, Len: 268
+22:217  0:000        (Dsdt: 8BEDA000, Facs: 8BEAE000, XDsdt: 8BEDA000, XFacs: 0)
+22:217  0:000        8BEDA000: 'DSDT', 'MSFT', Rev: 2, Len: 95823
+22:219  0:002        8BEAE000: 'FACS', Ver: 2, Len: 64
+22:219  0:000    1. 8BEFC000: 'BBRT', 'MSFT', Rev: 1, Len: 44
+22:219  0:000    2. 8BEFB000: 'MSDM', '', Rev: 1, Len: 85
+22:219  0:000    3. 8BEF7000: 'SSDT', 'SaSsdt', Rev: 2, Len: 12587
+22:219  0:000    4. 8BEF5000: 'HPET', 'MSFT', Rev: 1, Len: 56
+22:219  0:000    5. 8BEF4000: 'APIC', 'MSFT', Rev: 3, Len: 300
+22:219  0:000    6. 8BEF3000: 'MCFG', 'MSFT', Rev: 1, Len: 60
+22:219  0:000    7. 8BEF2000: 'LPIT', 'MSFT', Rev: 1, Len: 148
+22:219  0:000    8. 8BED7000: 'SSDT', 'RTD3APNV', Rev: 2, Len: 9739
+22:219  0:000    9. 8BED6000: 'SSDT', 'xh_ap000', Rev: 2, Len: 2253
+22:219  0:000    10. 8BED4000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062
+22:219  0:000    11. 8BED3000: 'DMAR', 'MSFT', Rev: 1, Len: 312
+22:219  0:000    12. 8BED2000: 'NHLT', 'MSFT', Rev: 0, Len: 45
+22:219  0:000    13. 8BED1000: 'FPDT', 'MSFT', Rev: 1, Len: 52
+22:219  0:000    14. 8BECF000: 'WSMT', 'MSFT', Rev: 1, Len: 40
+22:219  0:000    15. 8BED0000: 'BGRT', 'MSFT', Rev: 1, Len: 56
